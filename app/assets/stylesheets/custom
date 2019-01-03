@@ -1,0 +1,95 @@
+
+
+@import "bootstrap";
+
+
+body {
+  font-family: museo-sans-rounded, sans-serif;
+  //background-color: #E9E9E9;
+  background-color: #48B6EB;
+}
+
+p {
+  position: relative;
+  font-size: 1em;
+  height: 75vh;
+}
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  background-color: #ffb800;
+  position: relative;
+  text-align: center;
+  margin: 15px 5px 0px 0px;
+  border-radius: 30px;
+  border-width: 0px;
+  padding: 9px 21px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 2.3em;
+  letter-spacing: -1px;
+  padding-top: 12px;
+  padding-left: 40px;
+  font-weight: 550;
+  color: white;
+}
+
+#flags {
+  width: 40vw;
+  margin-bottom: 10vh;
+}
+
+
+#greeter {
+ margin-top: 115px;
+ margin-left: 10vw;
+}
+
+.navbar {
+  background-color: #ff9418;
+  //min-height: 70px;
+  border-radius: 0px;
+  border-style: none;
+}
+
+/* footer */
+
+footer {
+  background-color: #ff9418;
+  border-top: 1px solid;
+  small {
+    background-color: #ff9418;
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
+
+.footer
+{
+    background-color: #ff9418;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 70px;
+}

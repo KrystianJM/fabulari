@@ -1,0 +1,146 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+@import "bootstrap";
+
+
+
+/******************** custom css ************************/
+
+
+body {
+  font-family: museo-sans-rounded, sans-serif;
+  //background-color: #E9E9E9;
+  background-color: #48B6EB;
+}
+
+p {
+  position: relative;
+  font-size: 1em;
+  height: 75vh;
+}
+
+
+
+
+/* main page */
+
+#flags {
+  width: 40vw;
+  margin-bottom: 10vh;
+}
+
+#greeter {
+ margin-top: 50px;
+ margin-left: 10vw;
+}
+
+#register {
+  margin-top: 45px;
+}
+.greet {
+  margin-left: 4vw;
+  padding-top: 10vh;
+}
+
+
+
+
+/* header */
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  background-color: #ffb800;
+  position: relative;
+  text-align: center;
+  margin-left: 15px;
+  border-radius: 30px;
+  border-width: 0px;
+  padding: 3px 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.navbar {
+  background-color: #ff9418;
+  min-height: 70px;
+  border-radius: 0px;
+  border-style: none;
+}
+
+.navbar-brand {
+  font-family: museo-sans-rounded, sans-serif;
+  color: #48B6EB !important;
+  margin-left: 9vw;
+  font-size: 2.3em;
+  font-weight: 550;
+}
+
+.m-links {
+  margin-right: 5vw;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 2.3em;
+  letter-spacing: -1px;
+  padding-top: 12px;
+  padding-left: 40px;
+  font-weight: 550;
+  color: white;
+}
+/* footer */
+
+footer {
+  background-color: #ff9418;
+  border-top: 1px solid;
+  position: absolute;
+  bottom: 0;
+  small {
+    background-color: #ff9418;
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
+
+.footer
+{
+    background-color: #ff9418;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 70px;
+}
+
+.hidden {
+  display: none;
+}
