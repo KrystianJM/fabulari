@@ -58,6 +58,8 @@ group :development do
 end
 
 group :test do
+  # Adding rails-controller-testing, needed for assert_select etc.
+  gem 'rails-controller-testing' 
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'

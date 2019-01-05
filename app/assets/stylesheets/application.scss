@@ -45,9 +45,6 @@ p {
  margin-left: 10vw;
 }
 
-#register {
-  margin-top: 45px;
-}
 .greet {
   margin-left: 4vw;
   padding-top: 10vh;
@@ -66,16 +63,20 @@ a:hover {
   text-decoration: none;
 }
 
-button {
+.button-color {
   background-color: #ffb800;
-  position: relative;
-  text-align: center;
-  margin-left: 15px;
+  //position: relative;
+  //text-align: center;
+  //margin-left: 15px;
+  margin-top: 45px;
+  margin-left: 25%;
   border-radius: 30px;
   border-width: 0px;
-  padding: 3px 10px;
-  text-align: center;
-  vertical-align: middle;
+  width: 50%;
+
+  //padding: 3px 10px;
+  //text-align: center;
+  //vertical-align: middle;
   font-size: 15px;
   font-weight: 550;
 }
